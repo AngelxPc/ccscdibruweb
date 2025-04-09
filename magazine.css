@@ -1,0 +1,92 @@
+.magazine-section {
+    padding: 50px 20px;
+    text-align: center;
+    color: #fff;
+    background: url('background.jpeg') no-repeat center center fixed;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+header .logo {
+    width: 120px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+header h1 {
+    font-size: 28px;
+    color: #fff;
+    margin: 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+.magazine-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.magazine-section h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+.magazine-card {
+    display: inline-block;
+    width: 250px;
+    margin: 15px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.magazine-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+}
+
+.magazine-card img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.magazine-card h3 {
+    font-size: 20px;
+    color: #ffcc00;
+    margin: 10px 0 5px;
+}
+
+.magazine-card p {
+    font-size: 14px;
+    color: #ddd;
+}
+
+.navigation {
+    margin-top: 30px;
+}
+
+.navigation a {
+    display: inline-block;
+    margin: 5px;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007BFF;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.navigation a:hover {
+    background-color: #0056b3;
+}

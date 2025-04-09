@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teachers</title>
+    <link rel="stylesheet" href="teachers.css"> <!-- Link to CSS -->
+    <script src="teachers.js" defer></script> <!-- Link to JavaScript -->
+</head>
+<body class="teachers-page">
+    <header>
+        <a href="homepage.html" class="logo-link">
+            <img src="logo.png" alt="Institute Logo" class="logo">
+        </a>
+        <a href="homepage.html" class="name-link">
+            <h1>Dibru College</h1>
+        </a>
+    </header>
+    <main>
+        <div class="teachers-container">
+            <h2>Meet Our Teachers</h2>
+
+            <!-- Teacher Profile Card 1 -->
+            <div class="teacher-card">
+                <img src="teacher1.jpg" alt="Dr. Amelia Brown" class="teacher-photo" onclick="openModal('teacher1.jpg')">
+                <h3>Dr. Manash Pratim Bhuyan</h3>
+                <button class="view-details" onclick="showDetails('details-1')">View Details</button>
+                <div id="details-1" class="teacher-details hidden">
+                    <p><i class="icon mail"></i> Email: mpratim258@gmail.com </p>
+                    <p><i class="icon blood"></i> Blood Group: A+</p>
+                    <p><i class="icon phone"></i> Phone: +91-9706927274</p>
+                    <p><i class="icon phone"></i> Phone: +91-9101046938</p>
+                    <p><strong>Academic Details:</strong> </p>
+                    <p><strong>Qualifications:</strong> Bachelor of Enginering B.E, M.Tech, PhD in Natural Language Processing</p>
+                </div>
+            </div>
+
+            <!-- Teacher Profile Card 2 -->
+            <div class="teacher-card">
+                <img src="teacher2.jpg" alt="Prof. John White" class="teacher-photo" onclick="openModal('teacher2.jpg')">
+                <h3>Prof. Bicky Hazarika</h3>
+                <button class="view-details" onclick="showDetails('details-2')">View Details</button>
+                <div id="details-2" class="teacher-details hidden">
+                    <p><i class="icon mail"></i> Email: bickyhazarika@gmail.com</p>
+                    <p><i class="icon blood"></i> Blood Group: B+</p>
+                    <p><i class="icon phone"></i> Phone: +91-8751930374</p>
+                    <p><strong>Academic Details:</strong> </p>
+                    <p><strong>Qualifications:</strong> B.Sc in Physics, Diploma (Computer Hardware & Networking)</p>
+                </div>
+            </div>
+
+            <!-- Teacher Profile Card 3 -->
+            <div class="teacher-card">
+                <img src="teacher3.jpg" alt="Ms. Sophia Green" class="teacher-photo" onclick="openModal('teacher3.jpg')">
+                <h3>Gaurav Mali</h3>
+                <button class="view-details" onclick="showDetails('details-3')">View Details</button>
+                <div id="details-3" class="teacher-details hidden">
+                    <p><i class="icon mail"></i> gaurav.dibru.mca@gmail.com</p>
+                    <p><i class="icon blood"></i> Blood Group: AB+</p>
+                    <p><i class="icon phone"></i> Phone: +91-7896746827</p>
+                    <p><strong>Academic Details:</strong> B.Sc in Physics</p>
+                    <p><strong>Qualifications:</strong> B.Sc in Physics, MCA</p>
+                </div>
+            </div>
+
+            <!-- Teacher Profile Card 4 -->
+            <div class="teacher-card">
+                <img src="teacher4.jpg" alt="Dr. Nathaniel Carter" class="teacher-photo" onclick="openModal('teacher4.jpg')">
+                <h3>Ujjal Rabha</h3>
+                <button class="view-details" onclick="showDetails('details-4')">View Details</button>
+                <div id="details-4" class="teacher-details hidden">
+                    <p><i class="icon mail"></i> Email: </p>
+                    <p><i class="icon blood"></i> Blood Group: O+</p>
+                    <p><i class="icon phone"></i> Phone: +91-9101474431</p>
+                    <p><strong>Academic Details:</strong> BCA</p>
+                    <p><strong>Qualifications:</strong> BCA, MCA</p>
+                </div>
+            </div>
+
+            <!-- Teacher Profile Card 5 -->
+            <div class="teacher-card">
+                <img src="teacher5.jpg" alt="Dr. Emily Rose" class="teacher-photo" onclick="openModal('teacher5.jpg')">
+                <h3>Joydeep Bor Chetia</h3>
+                <button class="view-details" onclick="showDetails('details-5')">View Details</button>
+                <div id="details-5" class="teacher-details hidden">
+                    <p><i class="icon mail"></i> Email: </p>
+                    <p><i class="icon blood"></i> Blood Group: B-</p>
+                    <p><i class="icon phone"></i> Phone: +91-8638625386</p>
+                    <p><strong>Academic Details:</strong> </p>
+                    <p><strong>Qualifications:</strong> B.Sc in Mathematics, MCA</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <a href="homepage.html" class="back-button">Back to Home</a>
+        <a href="Gallery.html" class="next-button">Gallery</a>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,17 @@
+.feedback-button {
+    display: inline-block;
+    background-color: #007BFF; /* Button color */
+    color: #fff; /* Text color */
+    padding: 12px 25px; /* Button size */
+    text-decoration: none; /* Remove underline */
+    border-radius: 8px; /* Rounded corners */
+    font-size: 16px; /* Font size */
+    font-weight: bold; /* Bold text */
+    text-align: center;
+    transition: background-color 0.3s ease-in-out, transform 0.2s;
+}
+
+.feedback-button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+    transform: scale(1.05); /* Slight zoom effect */
+}

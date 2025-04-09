@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magazine Section</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap" rel="stylesheet"> <!-- Lora font -->
+    <link rel="stylesheet" href="magazine.css"> <!-- Link to CSS -->
+    <link rel="stylesheet" href="magazine1.css"> <!-- Link to CSS -->
+    <link rel="stylesheet" href="feedback.css"> <!-- Link to CSS -->
+    <script src="magazine.js" defer></script> <!-- Link to JavaScript -->
+    <script src="magazine1.js" defer></script> <!-- Link to JavaScript -->
+</head>
+<body class="magazine-page">
+    <header>
+        <a href="homepage.html" class="logo-link">
+            <img src="logo.png" alt="Institute Logo" class="logo">
+        </a>
+        <a href="homepage.html" class="name-link">
+            <h1>Dibru College</h1>
+        </a>
+    </header>
+
+    <main>
+        <!-- Magazine Number 1 Section -->
+        <section class="magazine-section">
+            <h2>Magazine 2024</h2>
+            <div class="magazine-container">
+                <div class="magazine-card">
+                    <img src="image9.jpg" alt="Magazine 1 Cover" class="magazine-photo" onclick="openModal('image9.jpg')">
+                    <h3>AI Verse</h3>
+                    <button class="view-details" onclick="toggleDetails('details-magazine1')">View Details</button>
+                    <div id="details-magazine1" class="magazine-details hidden">
+                        <p><strong>Made By:</strong> The Editorial Team</p>
+                        <p><strong>Roles:</strong> Content Writers, Designers, Editors</p>
+                        <p><strong>Materials:</strong> Articles on advancements in Artificial Intelligence, student achievements, and department highlights.</p>
+                        <a href="magazine1.pdf" download class="download-link">Download Full Magazine PDF</a>
+                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSd9SqVxUccBTjGm-20JCVVVRkJhMqjOt8yn8s2dInqLw2dSMA/viewform" target="_blank" class="feedback-button">Feedback</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Magazine Number 2 Section -->
+        <section class="magazine-section">
+            <h2>Magazine 2025</h2>
+            <div class="magazine-container">
+                <div class="magazine-card">
+                    <img src="magazine2.jpg" alt="Magazine 2 Cover" class="magazine-photo" onclick="openModal('magazine2.jpg')">
+                    <h3>Ai Cognito Machina</h3>
+                    <button class="view-details" onclick="toggleDetails('details-magazine2')">View Details</button>
+                    <div id="details-magazine2" class="magazine-details hidden">
+                        <p><strong>Made By:</strong> Faculty and Students</p>
+                        <p><strong>Roles:</strong> Writers, Photographers, Proofreaders</p>
+                        <p><strong>Materials:</strong> </p>
+                        <a href="magazine2.pdf" download class="download-link">Download Full Magazine PDF</a>
+                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSd9SqVxUccBTjGm-20JCVVVRkJhMqjOt8yn8s2dInqLw2dSMA/viewform" target="_blank" class="feedback-button">Feedback</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Modal for Zoomable Image -->
+    <div id="imageModal" class="modal hidden">
+        <span class="close-modal" onclick="closeModal()">&times;</span>
+        <img class="modal-content" id="modalImage">
+    </div>
+
+    <!-- Footer Section with Back and Next Buttons -->
+    <footer>
+        <a href="Gallery.html" class="back-button">Previous Section</a>
+        <a href="homepage.html" class="back-button">Back to Home</a>
+    </footer>
+</body>
+</html>

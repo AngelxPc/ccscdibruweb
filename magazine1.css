@@ -1,0 +1,172 @@
+/* Global Styling */
+body.magazine-page {
+    font-family: 'Lora', serif; /* Apply Lora font globally */
+    margin: 0;
+    padding: 0;
+    background: url('background.jpeg') no-repeat center center fixed; /* Background image */
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+}
+
+/* Header Styling */
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent header */
+}
+
+header a {
+    text-decoration: none;
+}
+
+.logo {
+    width: 150px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.name-link h1 {
+    font-size: 32px;
+    color: #fff;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.8);
+    margin: 0;
+}
+
+/* Magazine Section Styling */
+.magazine-section {
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent background */
+    border-radius: 10px;
+    max-width: 1200px;
+}
+
+.magazine-section h2 {
+    font-size: 32px;
+    color: #ffcc00;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+/* Magazine Cards */
+.magazine-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.magazine-card {
+    width: 300px;
+    background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent card */
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Add shadow */
+    text-align: left;
+}
+
+.magazine-photo {
+    width: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.magazine-details {
+    margin-top: 10px;
+    color: #ddd;
+}
+
+.magazine-details.hidden {
+    display: none; /* Hide details by default */
+}
+
+.download-link, .feedback-link {
+    display: inline-block;
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-right: 5px;
+}
+
+.download-link:hover, .feedback-link:hover {
+    background-color: #0056b3;
+}
+
+/* View Details Button */
+.view-details {
+    background-color: #28a745;
+    color: #fff;
+    padding: 8px 16px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.view-details:hover {
+    background-color: #218838;
+}
+
+/* Modal Styling */
+.modal {
+    display: flex;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.9);
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-content {
+    max-width: 80%;
+    max-height: 80%;
+    border-radius: 10px;
+    box-shadow: 0 0 20px #000;
+}
+
+.hidden {
+    display: none;
+}
+
+.close-modal {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Footer Navigation Buttons */
+footer {
+    text-align: center;
+    margin: 20px 0;
+}
+
+footer a {
+    display: inline-block;
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    margin: 10px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+footer a:hover {
+    background-color: #0056b3;
+    transform: scale(1.1); /* Slight zoom effect */
+}

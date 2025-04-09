@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Courses</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap" rel="stylesheet"> <!-- Lora font -->
+    <link rel="stylesheet" href="courses.css"> <!-- Link to CSS -->
+    <script src="courses.js" defer></script> <!-- Link to JavaScript -->
+</head>
+<body class="courses-page">
+    <header>
+        <a href="homepage.html" class="logo-link">
+            <img src="logo.png" alt="Institute Logo" class="logo">
+        </a>
+        <a href="homepage.html" class="name-link">
+            <h1>Dibru College</h1>
+        </a>
+    </header>
+
+    <main>
+        <section class="courses-section">
+            <h2>Courses We Offer</h2>
+            <div class="course-container">
+                <!-- Course 1 -->
+                <div class="course-card">
+                    <h3>Bachelor of Computer Applications (BCA)</h3>
+                    <button class="view-details" onclick="toggleDetails('details-bca')">View Details</button>
+                    <div id="details-bca" class="course-details hidden">
+                        <p>This undergraduate course provides a strong foundation in computer science, programming, and software development. Topics include database management, web development, and networking.</p>
+                        <p><strong>Syllabus:</strong></p>
+                        <ul>
+                            <li>Introduction to Programming</li>
+                            <li>Data Structures</li>
+                            <li>Database Management Systems</li>
+                            <li>Web Development</li>
+                            <li>Computer Networks</li>
+                        </ul>
+                        <a href="bca-syllabus.pdf" download class="download-link">Download Syllabus PDF</a>
+                    </div>
+                </div>
+
+                
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <a href="homepage.html" class="back-button">Back to Home</a>
+        <a href="Teachers.html" class="next-button">Next: Teachers</a>
+    </footer>
+</body>
+</html>

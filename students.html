@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Section</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap" rel="stylesheet"> <!-- Lora font -->
+    <link rel="stylesheet" href="students.css"> <!-- Link to CSS -->
+    <link rel="stylesheet" href="angeldetails.css"> <!-- Link to CSS -->
+    <script src="students.js" defer></script> <!-- Link to JavaScript -->
+    <script src="student1.js" defer></script> <!-- Link to JavaScript -->
+    <script src="angeldetails.js" defer></script> <!-- Link to JavaScript -->
+</head>
+<body class="students-page">
+    <header>
+        <a href="homepage.html" class="logo-link">
+            <img src="logo.png" alt="Institute Logo" class="logo">
+        </a>
+        <a href="homepage.html" class="name-link">
+            <h1>Dibru College</h1>
+        </a>
+    <main>
+        <section class="students-section">
+            <h2>Our Students</h2>
+            <div class="students-container">
+                <!-- Example Student Card -->
+                <!-- Repeat this block for all 22 students -->
+                <div class="student-card"id="student1">
+                    <img src="student1.jpg" alt="student1" class="student-photo">
+                    <h3>Angel Protim Chetia</h3>
+                    <button class="view-details" onclick="toggleDetails('details-1')">View Details</button>
+                    <div id="details-1" class="student-details hidden">
+                        <p>Email: angelprotimchetia29@gmail.com</p>
+                        <p>Phone: +91-9395414129</p>
+                        <p>Blood Group: o+</p>
+                        <p>Semester: 2nd </p>
+                        <p><strong>Bio:</strong> </p>
+                    </div>
+                </div>
+
+                <!-- Repeat for 22 Students (example for another student) -->
+                <div class="student-card">
+                    <img src="student2.jpg" alt="Nibir Gohain" class="student-photo">
+                    <h3>Nibir Gohain</h3>
+                    <button class="view-details" onclick="toggleDetails('details-2')">View Details</button>
+                    <div id="details-2" class="student-details hidden">
+                        <p>Email: </p>
+                        <p>Phone: +91-9876543220</p>
+                        <p>Blood Group: </p>
+                        <p>Semester: 2nd</p>
+                        <p><strong>Bio:</strong> </p>
+                    </div>
+                </div>
+                <!-- Add similar student cards for all 22 students -->
+                <div class="student-card">
+                    <img src="student3.jpg" alt="Sujan Mazumdar" class="student-photo">
+                    <h3>Sujan Mazumdar</h3>
+                    <button class="view-details" onclick="toggleDetails('details-3')">View Details</button>
+                    <div id="details-3" class="student-details hidden">
+                        <p>Email: </p>
+                        <p>Phone: +91-</p>
+                        <p>Blood Group: </p>
+                        <p>Semester: 2nd</p>
+                        <p><strong>Bio:</strong> </p>
+                    </div>
+                </div>
+                <div class="student-card">
+                    <img src="student4.jpg" alt="Jane Smith" class="student-photo">
+                    <h3>Ratul Saika</h3>
+                    <button class="view-details" onclick="toggleDetails('details-4')">View Details</button>
+                    <div id="details-4" class="student-details hidden">
+                        <p>Email: </p>
+                        <p>Phone: +91-</p>
+                        <p>Blood Group: </p>
+                        <p>Semester: 2nd</p>
+                        <p><strong>Bio:</strong> </p>
+                    </div>
+                </div>
+                <div class="student-card">
+                    <img src="student5.jpg" alt="Gagan Newar" class="student-photo">
+                    <h3>Gagan Newar</h3>
+                    <button class="view-details" onclick="toggleDetails('details-5')">View Details</button>
+                    <div id="details-5" class="student-details hidden">
+                        <p>Email: </p>
+                        <p>Phone: +91-</p>
+                        <p>Blood Group: </p>
+                        <p>Semester: 2nd</p>
+                        <p><strong>Bio:</strong> </p>
+                    </div>
+                </div>
+                <div class="student-card">
+                    <img src="student6.jpg" alt="Niharika Lohar" class="student-photo">
+                    <h3>Niharika Lohar</h3>
+                    <button class="view-details" onclick="toggleDetails('details-6')">View Details</button>
+                    <div id="details-6" class="student-details hidden">
+                        <p>Email: </p>
+                        <p>Phone: +91-</p>
+                        <p>Blood Group: </p>
+                        <p>Semester: 2nd</p>
+                        <p><strong>Bio:</strong> </p>
+                    </div>
+                </div>
+                <div class="student-card">
+                    <img src="student7.jpg" alt="Amiya Kachari" class="student-photo">
+                    <h3>Amiya Kachari</h3>
+                    <button class="view-details" onclick="toggleDetails('details-7')">View Details</button>
+                    <div id="details-7" class="student-details hidden">
+                        <p>Email: </p>
+                        <p>Phone: +91-</p>
+                        <p>Blood Group: </p>
+                        <p>Semester: 2nd</p>
+                        <p><strong>Bio:</strong> </p>
+                    </div>
+                </div>
+                <div class="student-card">
+                    <img src="student8.jpg" alt="Jintu Barman" class="student-photo">
+                    <h3>Jintu Barman</h3>
+                    <button class="view-details" onclick="toggleDetails('details-8')">View Details</button>
+                    <div id="details-8" class="student-details hidden">
+                        <p>Email: </p>
+                        <p>Phone: +91-</p>
+                        <p>Blood Group: </p>
+                        <p>Semester: 2nd</p>
+                        <p><strong>Bio:</strong> </p>
+                    </div>
+                </div>
+                <div class="student-card">
+                    <img src="student9.jpg" alt="Sushant Das" class="student-photo">
+                    <h3>Sushant Das</h3>
+                    <button class="view-details" onclick="toggleDetails('details-9')">View Details</button>
+                    <div id="details-9" class="student-details hidden">
+                        <p>Email: </p>
+                        <p>Phone: +91-</p>
+                        <p>Blood Group: </p>
+                        <p>Semester: 2nd</p>
+                        <p><strong>Bio:</strong> </p>
+                    </div>
+                </div>
+                <div class="student-card">
+                    <img src="student10.jpg" alt="Nishan Pratim Chaliha" class="student-photo">
+                    <h3>Nishan Pratim Chaliha</h3>
+                    <button class="view-details" onclick="toggleDetails('details-10')">View Details</button>
+                    <div id="details-10" class="student-details hidden">
+                        <p>Email: </p>
+                        <p>Phone: +91-</p>
+                        <p>Blood Group: </p>
+                        <p>Semester: 2nd</p>
+                        <p><strong>Bio:</strong> </p>
+                    </div>
+                </div>
+                <div class="student-card">
+                    <img src="student11.jpg" alt="Atar Pegu" class="student-photo">
+                    <h3>Atar Pegu</h3>
+                    <button class="view-details" onclick="toggleDetails('details-10')">View Details</button>
+                    <div id="details-10" class="student-details hidden">
+                        <p>Email: </p>
+                        <p>Phone: +91-</p>
+                        <p>Blood Group: </p>
+                        <p>Semester: 2nd</p>
+                        <p><strong>Bio:</strong> </p>
+                    </div>
+                </div>
+                <div class="student-card">
+                    <img src="student12.jpg" alt="Sujal Gupta" class="student-photo">
+                    <h3>Sujal Gupta</h3>
+                    <button class="view-details" onclick="toggleDetails('details-10')">View Details</button>
+                    <div id="details-10" class="student-details hidden">
+                        <p>Email: </p>
+                        <p>Phone: +91-</p>
+                        <p>Blood Group: </p>
+                        <p>Semester: 2nd</p>
+                        <p><strong>Bio:</strong> </p>
+                    </div>
+                </div>
+                <div class="student-card">
+                    <img src="student13.jpg" alt="Jerome Kujur" class="student-photo">
+                    <h3>Jerome Kujur</h3>
+                    <button class="view-details" onclick="toggleDetails('details-10')">View Details</button>
+                    <div id="details-10" class="student-details hidden">
+                        <p>Email: </p>
+                        <p>Phone: +91-</p>
+                        <p>Blood Group: </p>
+                        <p>Semester: 2nd</p>
+                        <p><strong>Bio:</strong> </p>
+                    </div>
+                </div>
+                <div class="student-card">
+                    <img src="student14.jpg" alt="Animesh Pachani" class="student-photo">
+                    <h3>Animesh Pachani</h3>
+                    <button class="view-details" onclick="toggleDetails('details-10')">View Details</button>
+                    <div id="details-10" class="student-details hidden">
+                        <p>Email: </p>
+                        <p>Phone: +91-</p>
+                        <p>Blood Group: </p>
+                        <p>Semester: 2nd</p>
+                        <p><strong>Bio:</strong> </p>
+                    </div>
+                </div>
+                <div class="student-card">
+                    <img src="student15.jpg" alt="Gaurav Nath" class="student-photo">
+                    <h3>Gaurav Nath</h3>
+                    <button class="view-details" onclick="toggleDetails('details-10')">View Details</button>
+                    <div id="details-10" class="student-details hidden">
+                        <p>Email: </p>
+                        <p>Phone: +91-</p>
+                        <p>Blood Group: </p>
+                        <p>Semester: 2nd</p>
+                        <p><strong>Bio:</strong> </p>
+                    </div>
+                </div>
+                <div class="student-card">
+                    <img src="student16.jpg" alt="Subham Mandal" class="student-photo">
+                    <h3>Subham Mandal</h3>
+                    <button class="view-details" onclick="toggleDetails('details-10')">View Details</button>
+                    <div id="details-10" class="student-details hidden">
+                        <p>Email: </p>
+                        <p>Phone: +91-</p>
+                        <p>Blood Group: </p>
+                        <p>Semester: 2nd</p>
+                        <p><strong>Bio:</strong> </p>
+                    </div>
+                </div>
+                <div class="student-card">
+                    <img src="student17.jpg" alt="Ankit Kashyap" class="student-photo">
+                    <h3></h3>
+                    <button class="view-details" onclick="toggleDetails('details-10')">View Details</button>
+                    <div id="details-10" class="student-details hidden">
+                        <p>Email: </p>
+                        <p>Phone: +91-</p>
+                        <p>Blood Group: </p>
+                        <p>Semester: 2nd</p>
+                        <p><strong>Bio:</strong> </p>
+                    </div>
+                </div>
+                <div class="student-card">
+                    <img src="student18.jpg" alt="" class="student-photo">
+                    <h3></h3>
+                    <button class="view-details" onclick="toggleDetails('details-10')">View Details</button>
+                    <div id="details-10" class="student-details hidden">
+                        <p>Email: </p>
+                        <p>Phone: +91-</p>
+                        <p>Blood Group: </p>
+                        <p>Semester: 2nd</p>
+                        <p><strong>Bio:</strong> </p>
+                    </div>
+                </div>
+                <div class="student-card">
+                    <img src="student19.jpg" alt="" class="student-photo">
+                    <h3></h3>
+                    <button class="view-details" onclick="toggleDetails('details-10')">View Details</button>
+                    <div id="details-10" class="student-details hidden">
+                        <p>Email: </p>
+                        <p>Phone: +91-</p>
+                        <p>Blood Group: </p>
+                        <p>Semester: 2nd</p>
+                        <p><strong>Bio:</strong> </p>
+                    </div>
+                </div>
+                <div class="student-card">
+                    <img src="student20.jpg" alt="" class="student-photo">
+                    <h3></h3>
+                    <button class="view-details" onclick="toggleDetails('details-10')">View Details</button>
+                    <div id="details-10" class="student-details hidden">
+                        <p>Email: </p>
+                        <p>Phone: +91-</p>
+                        <p>Blood Group: </p>
+                        <p>Semester: 2nd</p>
+                        <p><strong>Bio:</strong> </p>
+                    </div>
+                </div>
+                <div class="student-card">
+                    <img src="student21.jpg" alt="" class="student-photo">
+                    <h3></h3>
+                    <button class="view-details" onclick="toggleDetails('details-10')">View Details</button>
+                    <div id="details-10" class="student-details hidden">
+                        <p>Email: </p>
+                        <p>Phone: +91-</p>
+                        <p>Blood Group: </p>
+                        <p>Semester: 2nd</p>
+                        <p><strong>Bio:</strong> </p>
+                    </div>
+                </div>
+                <div class="student-card">
+                    <img src="student22.jpg" alt="" class="student-photo">
+                    <h3></h3>
+                    <button class="view-details" onclick="toggleDetails('details-10')">View Details</button>
+                    <div id="details-10" class="student-details hidden">
+                        <p>Email: </p>
+                        <p>Phone: +91-</p>
+                        <p>Blood Group: </p>
+                        <p>Semester: 2nd</p>
+                        <p><strong>Bio:</strong> </p>
+                    </div>
+                </div>
+                <!-- Add more student cards as needed -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <a href="homepage.html" class="back-button">Back to Home</a>
+        <a href="courses.html" class="next-button">Next: Courses</a>
+    </footer>
+</body>
+</html>

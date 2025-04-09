@@ -1,0 +1,149 @@
+/* Global Styling */
+body.courses-page {
+    font-family: 'Lora', serif; /* Apply Lora font globally */
+    margin: 0;
+    padding: 0;
+    background: url('background.jpeg') no-repeat center center fixed; /* Background image */
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+}
+
+/* Header Styling */
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent header */
+}
+
+header a {
+    text-decoration: none;
+}
+
+.logo {
+    width: 150px;
+    height: auto;
+    margin-bottom: 10px;
+    animation: fadeIn 2s ease-in-out; /* Fade-in animation */
+}
+
+.name-link h1 {
+    font-size: 32px;
+    color: #fff;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.8);
+    margin: 0;
+}
+
+/* Courses Section Styling */
+.courses-section {
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent background */
+    border-radius: 10px;
+    max-width: 1200px;
+}
+
+.courses-section h2 {
+    font-size: 32px;
+    color: #ffcc00;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+/* Course Cards Styling */
+.course-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.course-card {
+    width: 300px;
+    background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent card background */
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Add shadow */
+    text-align: left;
+}
+
+.course-card h3 {
+    font-size: 22px;
+    color: #ffcc00;
+    margin-bottom: 10px;
+}
+
+.course-card p {
+    font-size: 16px;
+    color: #ddd;
+}
+
+/* Course Details Styling */
+.course-details {
+    margin-top: 10px;
+    color: #ddd;
+    text-align: left;
+}
+
+.course-details.hidden {
+    display: none; /* Hide details by default */
+}
+
+.course-details ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.download-link {
+    display: inline-block;
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.download-link:hover {
+    background-color: #0056b3;
+}
+
+/* View Details Button */
+.view-details {
+    background-color: #28a745;
+    color: #fff;
+    padding: 8px 16px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.view-details:hover {
+    background-color: #218838;
+}
+
+/* Footer Navigation Buttons */
+footer {
+    text-align: center;
+    margin: 20px 0;
+}
+
+footer a {
+    display: inline-block;
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    margin: 10px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+footer a:hover {
+    background-color: #0056b3;
+    transform: scale(1.1); /* Slight zoom effect on hover */
+}

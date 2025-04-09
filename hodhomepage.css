@@ -1,0 +1,63 @@
+/* HOD Section Styling */
+.hod-section {
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent background */
+    border-radius: 10px;
+    max-width: 400px; /* Limit the width of the section */
+    text-align: center;
+}
+
+.hod-section h2 {
+    font-size: 28px;
+    color: #ffcc00; /* Bright color for emphasis */
+    margin-bottom: 15px;
+}
+
+/* Styling for HOD Card */
+.hod-card {
+    background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent card background */
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Add shadow for a professional look */
+}
+
+/* HOD Photo Styling */
+.hod-photo {
+    width: 150px; /* Set width to a small size */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 50%; /* Make the image circular */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Add shadow for aesthetics */
+    margin-bottom: 10px; /* Space below the photo */
+}
+
+/* Styling for HOD Name */
+.hod-card h3 {
+    font-size: 22px;
+    color: #fff;
+    margin: 10px 0;
+}
+
+/* Styling for HOD Contact Information */
+.hod-card p {
+    font-size: 16px;
+    color: #ddd;
+}
+
+/* Styling for Button */
+.hod-card button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+/* Hover Effect for Button */
+.hod-card button:hover {
+    background-color: #0056b3;
+    transform: scale(1.1); /* Slight zoom effect */
+}

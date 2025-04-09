@@ -1,0 +1,44 @@
+/* Contact Us Section Styling */
+.contact-section {
+    margin: 30px auto;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent background */
+    border-radius: 10px;
+    max-width: 800px;
+    text-align: left;
+}
+
+.contact-section h2 {
+    font-size: 32px;
+    color: #ffcc00;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+.contact-section p {
+    font-size: 18px;
+    color: #ddd;
+    margin-bottom: 15px;
+}
+
+.contact-section ul {
+    list-style-type: square;
+    margin-left: 20px;
+    font-size: 18px;
+    color: #ddd;
+}
+
+.contact-section ul li {
+    margin-bottom: 10px;
+}
+
+.contact-section a {
+    color: #007BFF;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.contact-section a:hover {
+    color: #0056b3;
+}
